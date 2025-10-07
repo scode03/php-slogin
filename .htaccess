@@ -1,0 +1,13 @@
+# Prevent directory listing
+Options -Indexes
+
+# Protect config files
+<Files "*.php">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+<Files "config/*">
+    Order Deny,Allow
+    Deny from all
+</Files>

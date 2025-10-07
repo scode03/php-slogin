@@ -1,0 +1,16 @@
+# Folder vendor (kalau nanti pakai composer)
+vendor/
+
+# Konfigurasi lokal
+config/database.php
+
+# Cache & temp
+*.log
+*.tmp
+*.bak
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
