@@ -21,3 +21,8 @@ A simple PHP native login and user management system with role-based access cont
 1. Clone the repo:
    ```bash
    git clone https://github.com/<username>/php-slogin.git
+2. Import the SQL file to your database.
+
+3. Update config/database.php with your DB credentials.
+
+4. Run locally using Laragon or XAMPP.
